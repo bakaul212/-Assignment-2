@@ -53,25 +53,34 @@
 </section>
 
 <!-- ================= ABOUT ================= -->
-<section id="about" class="section">
-  <h2>About the Podcast</h2>
+<section id="about" class="about-section">
+  <div class="about-header">
+    <h2>About The Podcast</h2>
+    <div class="about-text-content">
+      <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.</p>
+      <p>We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.</p>
+      <p class="cta-line">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+    </div>
+  </div>
 
-  <div class="stats">
-    <div class="stat">
-      <h3>150K+</h3>
-      <span>Listeners</span>
+  <div class="stats-divider"></div>
+
+  <div class="stats-grid">
+    <div class="stat-item">
+      <h3 class="stat-number">150K+</h3>
+      <span class="stat-label">MONTHLY LISTENERS</span>
     </div>
-    <div class="stat">
-      <h3>200+</h3>
-      <span>Episodes</span>
+    <div class="stat-item">
+      <h3 class="stat-number">200+</h3>
+      <span class="stat-label">EPISODES PUBLISHED</span>
     </div>
-    <div class="stat">
-      <h3>4.9★</h3>
-      <span>Rating</span>
+    <div class="stat-item">
+      <h3 class="stat-number">4.9★</h3>
+      <span class="stat-label">AVERAGE RATING</span>
     </div>
-    <div class="stat">
-      <h3>50+</h3>
-      <span>Countries</span>
+    <div class="stat-item">
+      <h3 class="stat-number">50+</h3>
+      <span class="stat-label">INDUSTRY EXPERTS</span>
     </div>
   </div>
 </section>
@@ -133,44 +142,106 @@
 </section>
 
 <!-- ================= EPISODES ================= -->
-<section id="episodes" class="section">
-  <h2>Featured Episodes</h2>
+<section id="episodes" class="episodes-section">
+  <h2 class="section-title">Featured Episodes</h2>
 
-  <div class="episodes">
-    <div class="card">
-      <h3>The Future of AI in Everyday Life</h3>
-      <p>Duration: 42 min</p>
+  <div class="episodes-container">
+    <div class="episode-card">
+      <div class="card-image">
+        <!-- <img src="assets/episode1.jpg" alt="Future of AI"> -->
+        <div class="play-button">
+          <div class="play-icon"></div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>The Future of AI in Everyday Life</h3>
+        <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+        <div class="duration">
+          <span class="clock-icon">🕒</span>
+          <span>42 min</span>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <h3>Building Better Habits for Remote Work</h3>
-      <p>Duration: 35 min</p>
+    <div class="episode-card">
+      <div class="card-image">
+        <!-- <img src="assets/episode2.jpg" alt="Remote Work Habits"> -->
+        <div class="play-button">
+          <div class="play-icon"></div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>Building Better Habits for Remote Work</h3>
+        <p>Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+        <div class="duration">
+          <span class="clock-icon">🕒</span>
+          <span>35 min</span>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <h3>Career Growth in Tech: A Roadmap</h3>
-      <p>Duration: 51 min</p>
+    <div class="episode-card">
+      <div class="card-image">
+        <!-- <img src="assets/episode3.jpg" alt="Career Growth"> -->
+        <div class="play-button">
+          <div class="play-icon"></div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>Career Growth in Tech: A Roadmap</h3>
+        <p>Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+        <div class="duration">
+          <span class="clock-icon">🕒</span>
+          <span>51 min</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ================= HOST ================= -->
-<section id="host" class="section host">
-  <img src="assets/host.png" alt="Host Image">
-
-  <div class="host-info">
-    <h2>Meet the Host</h2>
-    <h3>Alex Kumar</h3>
-    <p>
-      Alex is a tech strategist and podcast host sharing
-      real-world insights from industry leaders worldwide.
-    </p>
+<section id="host" class="host-section">
+  <h2 class="section-title">Meet The Host</h2>
+  
+  <div class="host-card">
+    <div class="host-image-container">
+      <img src="assets/host.png" alt="Alex Kumar" class="host-portrait">
+    </div>
+    
+    <div class="host-details">
+      <h3>Alex Kumar</h3>
+      <p>
+        Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, 
+        working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and 
+        practical advice for anyone looking to grow in tech.
+      </p>
+      
+      <div class="host-socials">
+        <a href="#" class="social-icon">in</a>
+        <a href="#" class="social-icon">X</a>
+        <a href="#" class="social-icon">o</a>
+        <a href="#" class="social-icon">y</a>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- ================= FOOTER ================= -->
-<footer>
-  <p>© 2026 TechWave Podcast. All rights reserved.</p>
+<footer class="main-footer">
+  <div class="footer-wave-container">
+    <div class="footer-logo">Tech<span>Wave</span></div>
+    
+    <div class="footer-social-links">
+      <a href="#"><img src="assets/spotify.png" alt=""> Spotify</a>
+      <a href="#"><img src="assets/apple-podcast.png" alt=""> Apple Podcasts</a>
+      <a href="#"><img src="assets/youtube.png" alt=""> YouTube</a>
+      <a href="#"><img src="assets/twitter.png" alt=""> Twitter</a>
+    </div>
+
+    <div class="footer-copyright">
+      <p>© 2026 TechWave Podcast. All rights reserved.</p>
+    </div>
+  </div>
 </footer>
 
 </body>
